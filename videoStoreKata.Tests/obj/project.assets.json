@@ -1708,6 +1708,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "videoStoreKata.Code/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/videoStoreKata.Code.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/videoStoreKata.Code.dll": {}
+        }
       }
     }
   },
@@ -5500,41 +5510,53 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "videoStoreKata.Code/1.0.0": {
+      "type": "project",
+      "path": "../videoStoreKata.Code/videoStoreKata.Code.csproj",
+      "msbuildProject": "../videoStoreKata.Code/videoStoreKata.Code.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.7.1",
       "coverlet.collector >= 3.2.0",
+      "videoStoreKata.Code >= 1.0.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
     ]
   },
   "packageFolders": {
-    "/Users/eddieashton/.nuget/packages/": {}
+    "C:\\Users\\edwoo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eddieashton/Desktop/Projects Folder/videoStoreKata/videoStoreKata.Tests/videoStoreKata.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\edwoo\\Code\\videoStoreKata\\videoStoreKata.Tests\\videoStoreKata.Tests.csproj",
       "projectName": "videoStoreKata.Tests",
-      "projectPath": "/Users/eddieashton/Desktop/Projects Folder/videoStoreKata/videoStoreKata.Tests/videoStoreKata.Tests.csproj",
-      "packagesPath": "/Users/eddieashton/.nuget/packages/",
-      "outputPath": "/Users/eddieashton/Desktop/Projects Folder/videoStoreKata/videoStoreKata.Tests/obj/",
+      "projectPath": "C:\\Users\\edwoo\\Code\\videoStoreKata\\videoStoreKata.Tests\\videoStoreKata.Tests.csproj",
+      "packagesPath": "C:\\Users\\edwoo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edwoo\\Code\\videoStoreKata\\videoStoreKata.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/eddieashton/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\edwoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\edwoo\\Code\\videoStoreKata\\videoStoreKata.Code\\videoStoreKata.Code.csproj": {
+              "projectPath": "C:\\Users\\edwoo\\Code\\videoStoreKata\\videoStoreKata.Code\\videoStoreKata.Code.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5584,7 +5606,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

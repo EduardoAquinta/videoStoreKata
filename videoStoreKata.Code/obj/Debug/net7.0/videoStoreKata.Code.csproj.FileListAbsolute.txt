@@ -1,0 +1,12 @@
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\bin\Debug\net7.0\videoStoreKata.Code.deps.json
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\bin\Debug\net7.0\videoStoreKata.Code.dll
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\bin\Debug\net7.0\videoStoreKata.Code.pdb
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.AssemblyInfoInputs.cache
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.AssemblyInfo.cs
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.csproj.CoreCompileInputs.cache
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.sourcelink.json
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.dll
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\refint\videoStoreKata.Code.dll
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\videoStoreKata.Code.pdb
+C:\Users\edwoo\Code\videoStoreKata\videoStoreKata.Code\obj\Debug\net7.0\ref\videoStoreKata.Code.dll

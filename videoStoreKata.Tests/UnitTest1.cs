@@ -1,10 +1,17 @@
+using videoStoreKata.Code;
+
 namespace videoStoreKata.Tests;
 
-public class UnitTest1
+public class VideoStoreKataServiceTests
 {
     [Fact]
-    public void Test1()
+    public void RegularMovieOneDayRental()
     {
-
+        //arrange
+        var regularMovieRental = new VideoStore();
+        //act
+        var cost = regularMovieRental.RegularDayRate(1);
+        //assert
+        Assert.Equal(2, cost);
     }
 }

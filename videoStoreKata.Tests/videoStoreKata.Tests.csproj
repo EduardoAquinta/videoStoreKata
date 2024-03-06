@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\videoStoreKata.Code\videoStoreKata.Code.csproj" />
+  </ItemGroup>
+
 </Project>
