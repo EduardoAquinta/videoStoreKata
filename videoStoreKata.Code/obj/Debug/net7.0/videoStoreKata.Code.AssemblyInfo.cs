@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("videoStoreKata.Code")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f83fd38918eb6f10e6ef253476c31a811d653c61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e630c603af913ea34154e73f9fe785e5fa2533e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("videoStoreKata.Code")]
 [assembly: System.Reflection.AssemblyTitleAttribute("videoStoreKata.Code")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
