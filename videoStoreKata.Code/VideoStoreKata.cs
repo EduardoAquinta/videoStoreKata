@@ -34,4 +34,18 @@ public class VideoStore
         }
         
     }
+
+    public int FrequentRentalPoints(int day)
+    {
+        if (day < 2)
+        {
+            return day + 1;
+        }
+        return 3;
+    }
+}
+
+public class VideoStoreReceipt
+{
+    
 }

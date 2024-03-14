@@ -22,7 +22,7 @@ public class VideoStoreKataServiceTests
     [InlineData(2,6)]
     [InlineData(7,21)]
 
-    public void NewReleaseMovieRental_1_3(int input, double expected)
+    public void NewReleaseMovieRental_input_expected(int input, double expected)
     {
         var newReleaseMovie = new VideoStore();
         double cost = newReleaseMovie.NewMovieRate(input);
@@ -41,5 +41,31 @@ public class VideoStoreKataServiceTests
         var childrensMovieRental = new VideoStore();
         double cost = childrensMovieRental.ChildrensMovieRate(input);
         Assert.Equal(expected, cost);
+    }
+
+    [Theory]
+    [InlineData( 1,  2)]
+    [InlineData( 2,  3)]
+    [InlineData( 3,  3)]
+    [InlineData(12,3)]
+
+
+    public void Frequent_Renter_Points_1_1(int input, int expected)
+    {
+        var frequentRenterPoints = new VideoStore();
+        int amount = frequentRenterPoints.FrequentRentalPoints(input);
+        Assert.Equal(expected, amount);
+    }
+}
+
+public class VideoStoreReceiptTests
+{
+
+    [Fact]
+    public void VideoStoreReceipts_Returns_Correct_String_Format()
+    {
+        var correctStringFormat = new VideoStoreReceipt();
+        string receipt = correctStringFormat.Receipt();
+        Assert.Equal();
     }
 }
